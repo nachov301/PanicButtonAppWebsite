@@ -11,10 +11,16 @@ h1, h2, h3, h4, h5, h6 {
 em {
   font-style: normal;
   color: #7743DB;
+  font-size: 3.5rem;
+}
+
+.author{
+  font-size: 1.5rem;
 }
 
 p {
   color: #6C4AB6;
+  font-size: 1rem;
 }
 
 ul{
@@ -27,6 +33,32 @@ ul{
   transition: 0.3s;
   padding: 20px;
   width: 100%;
+  margin-bottom: 80px;
+  margin-left: 80px;
+  color: #7743DB;
+  border-radius: 25px;
+}
+
+.card1 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 80px;
+  margin-left: 80px;
+  color: #7743DB;
+  border-radius: 25px;
+  margin-top: 80px;
+}
+
+.card2 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 20px;
+  width: 100%;
+  margin-top: 80px;
   margin-bottom: 80px;
   margin-left: 80px;
   color: #7743DB;
@@ -63,6 +95,32 @@ ul{
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.lottie1{
+  width: 350px;
+  height: 350px;
+}
+
+.div-gif1{
+  float: left;
+  margin-left: 100px;
+  margin-bottom: 0px;
+  margin-top: 70px
+}
+
+.div-gif2{
+  float: right;
+  margin-right: 100px;
+  margin-bottom: 0px;
+  margin-top: 70px
+}
 
 /* Headings */
 
@@ -113,6 +171,10 @@ ul{
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
+}
+
+.navbar-toggler-icon{
+  font-size: 3.5rem;
 }
 
 /* Buttons */
@@ -177,6 +239,7 @@ ul{
 .icon {
   color: #BA94D1;
   margin-bottom: 1rem;
+  font-size: 4.5rem;
 }
 
 .icon:hover {
@@ -196,7 +259,7 @@ ul{
 }
 
 .testimonial-image {
-  width: 10%;
+  width: 15%;
   border-radius: 100%;
   margin: 20px;
 }
@@ -227,6 +290,16 @@ ul{
   padding: 3% 2%;
 }
 
+.lottie2{
+  width: 200px;
+  height: 200px;
+}
+
+.gifs{
+  width: 350px;
+  height: 450px
+}
+
 /* CTA Section */
 
 
@@ -235,6 +308,12 @@ ul{
 
 .social-icon {
   margin: 20px 10px;
+  margin: 30px;
+  font-size: 1.5rem;
+}
+
+.font-size-p{
+  font-size: 1.2rem;
 }
 
 @media (max-width: 1028px) {
@@ -243,7 +322,13 @@ ul{
     text-align: center;
   }
 
+  .nav-link {
+    font-size: 3.2rem;
+    font-family: "Montserrat-Light";
+  }
+
   .title-image {
+    width: 90%;
     position: static;
     transform: rotate(0);
   }
@@ -269,4 +354,125 @@ ul{
     float: none;
     margin-top: 50px;
   }
+
+  .feature-title {
+    font-size: 4rem;
+    color: #7743DB
+  }
+
+  p {
+    color: #6C4AB6;
+    font-size: 2.5rem;
+  }
+
+  .icon {
+    color: #BA94D1;
+    margin-bottom: 1rem;
+    font-size: 8rem;
+  }
+
+
+  .testimonial-text {
+    font-size: 5rem;
+    line-height: 1;
+  }
+
+  .testimonial-image {
+    width: 30%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  em {
+    font-style: normal;
+    color: #7743DB;
+    font-size: 5rem;
+  }
+
+  .lottie1{
+    width: 500px;
+    height: 500px;
+  }
+
+  .div-gif1{
+    float: left;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 70px
+  }
+
+  .div-gif2{
+    float: right;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 70px
+  }
+
+  .card2 {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 20px;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 0px;
+    color: #7743DB;
+    border-radius: 25px;
+  }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 20px;
+    width: 99%;
+    margin-bottom: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #7743DB;
+    border-radius: 25px;
+  }
+
+  .font-size-p{
+    font-size: 2.5rem;
+  }
+
+  .big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .btn{
+    font-size: 3rem;
+  }
+
+  .lottie2{
+    width: 350px;
+    height: 350px;
+  }
+
+  .gifs{
+    width: 450px;
+    height: 550px
+  }
+
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 4.2rem;
+    font-weight: bold;
+  }
+
+
+  .social-icon {
+    margin: 20px 10px;
+    margin: 50px;
+    font-size: 3.5rem;
+  }
+
+  .author{
+    font-size: 2.5rem;
+  }
+
 }
